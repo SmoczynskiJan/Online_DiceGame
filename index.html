@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script type="text/javascript" src="/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Press the button to roll the dice</h1>
+        <input id="clickMe" type="button" value="Roll The Dice" onclick="diceRoll();"/>
+    </header>
+    <container>
+        <div id="BackGround">
+            <div class="tableBorder" style="height: 786px; width: 1834px; border-color: #935447;"></div>
+            <div class="tableBorder" style="height: 770px; width: 1818px; border-color: #9F6356; left: 8px; top: 8px;"></div>
+            <div class="tableBorder" style="height: 754px; width: 1802px; border-color: #AB7165; left: 16px; top: 16px;"></div>
+            <div class="tableBorder" style="height: 738px; width: 1786px; border-color: #B78074; left: 24px; top: 24px;"></div>
+            <div class="tableBorder" style="height: 722px; width: 1770px; border-color: #C38E83; left: 32px; top: 32px;"></div>
+            <div class="tableBorder" style="height: 706px; width: 1754px; border-color: #AE7B70; left: 40px; top: 40px;"></div>
+            <div class="tableBorder" style="height: 690px; width: 1738px; border-color: #99675C; left: 48px; top: 48px;"></div>
+            <div class="tableBorder" style="height: 674px; width: 1722px; border-color: #845349; left: 56px; top: 56px;"></div>
+            <div class="tableBorder" style="height: 658px; width: 1706px; border-color: #6E3F35; left: 64px; top: 64px;"></div>
+        </div>
+        <diceContainer>
+            <div><h2>Player One</h2><img id="check1" class="winCheck" src="img/check.png"/></div>
+            <div><h2>Player Two</h2><img id="check2" class="winCheck" src="img/check.png"/></div>
+            
+            <div id="playerOne" class="dice">
+                <div id="firstDice" class="dotGrid">
+                    <div class="dotBg"><div class="dot"></div></div>
+                    <div class="dotBg"><div class="dot startDice"></div></div>
+                    <div class="dotBg"><div class="dot"></div></div>
+                    <div class="dotBg"><div class="dot startDice"></div></div>
+                    <div class="dotBg"><div class="dot"></div></div>
+                    <div class="dotBg"><div class="dot startDice"></div></div>
+                    <div class="dotBg"><div class="dot"></div></div>
+                    <div class="dotBg"><div class="dot startDice"></div></div>
+                    <div class="dotBg"><div class="dot"></div></div>              
+                </div>
+            </div>
+            
+            <div id="playerTwo" class="dice">
+                <div id="secondDice" class="dotGrid">
+                    <div class="dotBg"><div class="dot startDice"></div></div>
+                    <div class="dotBg"><div class="dot startDice"></div></div>
+                    <div class="dotBg"><div class="dot"></div></div>
+                    <div class="dotBg"><div class="dot startDice"></div></div>
+                    <div class="dotBg"><div class="dot"></div></div>
+                    <div class="dotBg"><div class="dot startDice"></div></div>
+                    <div class="dotBg"><div class="dot"></div></div>
+                    <div class="dotBg"><div class="dot startDice"></div></div>
+                    <div class="dotBg"><div class="dot startDice"></div></div> 
+
+                </div>
+            </div>
+        </diceContainer>
+    </container>
+</body>
+</html>
